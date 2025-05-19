@@ -25,7 +25,7 @@ class _SplashscreenState extends State<Splashscreen> {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 233, 232, 231),
       body: Center(
-        child: Lottie.asset('assets/splash.json', onLoaded: (compostion) {
+        child: Lottie.asset('assets/splash1.json', onLoaded: (compostion) {
           Future.delayed(compostion.duration, navigatetologin);
         }),
       ),
